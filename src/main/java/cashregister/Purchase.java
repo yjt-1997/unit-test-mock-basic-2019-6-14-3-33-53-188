@@ -11,11 +11,9 @@ public class Purchase {
 
     public String asString() {
         String out = "";
-
         for (Item item : items) {
             out += item.getName() + "\t" + item.getPrice() + "\n";
         }
-
         return out;
     }
 }
